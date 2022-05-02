@@ -1,0 +1,24 @@
+# This determines the delay between each restart.
+# 1 = 1 minute | Default is 60 (1 hour).
+
+delay: 60
+
+# This determines if all the online players will be transferred to another server or not.
+# true = will be transferred | false = will be kicked | Default is "true".
+
+transfer: true
+
+# If the option above is set to "false", set a kick message here.
+# If the option above is set to "true", this option shouldn't matter.
+
+kick-message: "§cServer Restarting..."
+
+# If you want a message to be broadcasted every 5 minutes, set this to true.
+# true = a message will be broadcasted every 5 minutes | false = nothing happens every 5 minutes | Default is "true".
+
+broadcast-message: true
+
+# If the option above is set to true, set a broadcast message here.
+# Use "%time%" for the remaining time.
+
+message: "Server is going to restart in %time% minutes"
