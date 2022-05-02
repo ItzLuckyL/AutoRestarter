@@ -1,3 +1,4 @@
+---
 # This determines the delay between each restart.
 # 1 = 1 minute | Default is 60 (1 hour).
 
@@ -28,3 +29,4 @@ broadcast-message: true
 # Use "%time%" for the remaining time.
 
 message: "Server is going to restart in %time% minutes"
+...
