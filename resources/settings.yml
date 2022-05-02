@@ -8,8 +8,14 @@ delay: 60
 
 transfer: true
 
-# If the option above is set to "false", set a kick message here.
-# If the option above is set to "true", this option shouldn't matter.
+# If the "transfer" option above is set to true, set the target IP and Port.
+# Default is my server.
+
+IP: nightarena.net
+PORT: 19132
+
+# If the "transfer" option above is set to "false", set a kick message here.
+# If the "transfer" option above is set to "true", this option shouldn't matter.
 
 kick-message: "§cServer Restarting..."
 
