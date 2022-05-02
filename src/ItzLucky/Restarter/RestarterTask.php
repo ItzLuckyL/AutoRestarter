@@ -1,5 +1,7 @@
 <?php
 
+namespace ItzLucky\Restarter;
+
 use pocketmine\Server;
 
 use pocketmine\player\Player;
